@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	background-color: #132326;
+	line-height: 1.6em;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 35px;
+  color: #ffd99b;
+}
+
+#mainContainer{
+  width: 90%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+#headerBox{
+  border: #ffd99b solid 1px;
+  background-color: #224732
+}
+
+#main{
+  background-color: #88a34f;
+}
+
+.homeOptions{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  text-align: center;
+}
+.optionBox{
+  margin: 10px auto;
+}
+.optionBox button{
+  width: 75px;
+}
+
+#footerBox{
+  text-align: center;
+  padding: 10px;
+  color: #ffd99b;
+}
